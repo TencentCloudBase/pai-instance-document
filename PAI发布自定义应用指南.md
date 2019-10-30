@@ -20,7 +20,7 @@ deployScripts:
   start:
     - npm install
     - npm run start
-  stop:
+  delete:
     - npm run stop
   restart:
     - npm install
@@ -29,7 +29,7 @@ deployScripts:
 以一个 Node.js 的PAI发布配置文件为例
 * deployScripts：应用管理相关脚本目录
 * start：启动应用脚本内容
-* stop：停止应用脚本内容
+* delete：删除应用脚本内容
 * restart：重启应用脚本内容
 
 ## PAI官方参考配置
